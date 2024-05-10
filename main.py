@@ -27,7 +27,7 @@ with st.sidebar:
     user_api = st.text_input("OpenAI API key here")
     if st.button("Insert"):
         with st.spinner(text="Inserting API Key"):
-            st.write(f"API Key {user_api}")
+            #st.write(f"API Key {user_api}")
             st.session_state["API_KEY"] = user_api
 
 
